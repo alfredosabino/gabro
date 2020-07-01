@@ -1,4 +1,4 @@
-const getMessage = require('./messages');
+const { getMessage } = require('./messages');
 
 const getValidatorError = (error, messegaPath) => {
     if (!error) return null;
